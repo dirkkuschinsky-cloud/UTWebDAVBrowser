@@ -1,0 +1,10 @@
+const assert = require('assert');
+const rules = require('../qml/EditorRules.js');
+for (const name of ['Grüße Text.txt', '%2F.md', '#?%.TXT', '<b>.md']) assert(rules.validName(name));
+for (const name of ['', ' ', '.', '..', '../x.txt', 'x/y.md', 'x\\y.txt', 'a\n.txt', 'x.pdf']) assert(!rules.validName(name));
+assert(rules.editable('README.MD'));
+assert(rules.editable('Grüße %.txt'));
+assert(rules.editable('notes.TXT'));
+assert(rules.editable('notes.md'));
+assert(!rules.editable('x.jpg'));
+console.log('Editor rules passed');

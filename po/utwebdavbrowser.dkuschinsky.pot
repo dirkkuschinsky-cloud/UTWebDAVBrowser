@@ -1,0 +1,860 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the utwebdavbrowser.dkuschinsky package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: utwebdavbrowser.dkuschinsky\n"
+"Report-Msgid-Bugs-To: utwebdavbrowser@dk-service.de\n"
+"POT-Creation-Date: 2026-10-22 19:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/BatchDownloads.qml:38
+msgid "The download job could not be prepared."
+msgstr ""
+
+#: ../qml/BatchDownloads.qml:49
+msgid "The download job could not be started."
+msgstr ""
+
+#: ../qml/BatchDownloads.qml:100
+msgid "The download job could not be discarded."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:78
+msgid "Checking resource before deletion…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:82
+msgid "The resource could not be checked."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:96
+msgid "Confirm deletion"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:119
+msgid "Really delete folder %1?"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:120
+msgid "Really delete file %1?"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:127
+msgid ""
+"Warning: The folder and all contained files and subfolders may be "
+"permanently deleted."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:138 ../qml/BrowserPage.qml:209
+#: ../qml/BrowserPage.qml:285 ../qml/TextEditorPage.qml:60
+#: ../qml/TextEditorPage.qml:193
+msgid "Cancel"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:144
+msgid "Delete permanently"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:167
+msgid "Resource deleted."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:170
+msgid "Deletion was not confirmed. Refresh and select again."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:185 ../qml/Main.qml:101
+msgid "The editor could not be opened."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:195 ../qml/BrowserPage.qml:521
+msgid "New text file"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:197 ../qml/TextEditorPage.qml:183
+msgid "File name (.txt or .md)"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:199 ../qml/BrowserPage.qml:278
+msgid "Create"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:230 ../qml/BrowserPage.qml:535
+msgid "New folder"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:253 ../src/main.py:124
+msgid "The folder could not be created."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:260
+msgid "Folder name"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:326 ../qml/ExportController.qml:54
+#: ../src/download_jobs.py:129
+msgid "Download failed."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:346
+msgid "Uploaded %1 of %2 files."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:361
+msgid "Upload failed."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:380
+msgid "The selected item is not a local file."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:384 ../src/download_jobs.py:21
+msgid "Invalid file name."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:388
+msgid "The selected file could not be prepared. Choose it again."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:395
+msgid "No files selected for upload."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:419
+msgid "Error: %1"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:490
+msgid "File selection was cancelled."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:500
+msgid "Files"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:504
+msgid "Back"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:528
+msgid "Select files"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:542
+msgid "Refresh"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:548
+msgid "Upload"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:582
+msgid "%1 files selected"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:583
+msgid "Cancelling…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:584
+msgid "File %1 of %2: %3"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:585
+msgid "Download job finished"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:585
+msgid "Preparing downloads…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:591
+msgid "Select all"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:592
+msgid "Clear selection"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:598
+msgid "Download"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:599
+msgid "Leave selection"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:629
+msgid "Processed: %1 of %2. Progress weighted by files: %3 %."
+msgstr ""
+
+#: ../qml/BrowserPage.qml:636
+msgid "Downloaded: %1 · Failed: %2 · Cancelled: %3"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:662
+msgid "Cancel downloads"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:669
+msgid "Save downloaded files…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:676
+msgid "Discard results and temporary files"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:695
+msgid "Uploading %1 of %2: %3"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:696
+msgid "Waiting for file selection…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:708
+msgid "Waiting for server confirmation…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:726 ../qml/BrowserPage.qml:765
+#: ../qml/ExportController.qml:348
+msgid "Dismiss"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:743
+msgid "Downloading: %1"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:743
+msgid "Loading editor…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:796
+msgid "Download…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:806
+msgid "Open in another app…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:817
+msgid "Delete…"
+msgstr ""
+
+#: ../qml/BrowserPage.qml:824
+msgid "Edit…"
+msgstr ""
+
+#: ../qml/ExportController.qml:61
+msgid "Choose an app for the file."
+msgstr ""
+
+#: ../qml/ExportController.qml:76
+msgid "%1 downloaded files"
+msgstr ""
+
+#: ../qml/ExportController.qml:83
+msgid "The export could not be prepared."
+msgstr ""
+
+#: ../qml/ExportController.qml:90
+msgid "Choose an app for the downloaded files."
+msgstr ""
+
+#: ../qml/ExportController.qml:111
+msgid "Handing the file to the selected app…"
+msgstr ""
+
+#: ../qml/ExportController.qml:116
+msgid "The selected app received the file. Waiting for it to finish…"
+msgstr ""
+
+#: ../qml/ExportController.qml:118
+msgid ""
+"The selected app ended the transfer. Check its import results. Original "
+"downloads are still available."
+msgstr ""
+
+#: ../qml/ExportController.qml:119
+msgid "Export was cancelled or failed."
+msgstr ""
+
+#: ../qml/ExportController.qml:121
+msgid "The file was handed to the selected app."
+msgstr ""
+
+#: ../qml/ExportController.qml:122
+msgid "Export ended without confirmation."
+msgstr ""
+
+#: ../qml/ExportController.qml:147
+msgid "The export could not be started."
+msgstr ""
+
+#: ../qml/ExportController.qml:239
+msgid ""
+"The transfer is still active. You can return to the app; its files will be "
+"retained."
+msgstr ""
+
+#: ../qml/ExportController.qml:246
+msgid "The transfer could not be finalized."
+msgstr ""
+
+#: ../qml/ExportController.qml:290
+msgid "Export was cancelled."
+msgstr ""
+
+#: ../qml/ExportController.qml:311
+msgid "Preparing: %1"
+msgstr ""
+
+#: ../qml/ExportController.qml:331
+msgid ""
+"You can return to the app without ending the external app. Files remain "
+"available until the transfer ends. External changes are not saved back to "
+"WebDAV."
+msgstr ""
+
+#: ../qml/ExportController.qml:335
+msgid "Return to app"
+msgstr ""
+
+#: ../qml/ExportController.qml:342
+msgid "Cancel transfer and return"
+msgstr ""
+
+#: ../qml/ImageViewerPage.qml:19 ../qml/PdfViewerPage.qml:19
+#: ../qml/TextViewerPage.qml:19
+msgid "Save…"
+msgstr ""
+
+#: ../qml/LoginPage.qml:38
+msgid "Connection failed."
+msgstr ""
+
+#: ../qml/LoginPage.qml:51
+msgid "Saved connection settings deleted."
+msgstr ""
+
+#: ../qml/LoginPage.qml:53
+msgid "Could not delete saved settings."
+msgstr ""
+
+#: ../qml/LoginPage.qml:64 utwebdavbrowser.desktop.in.h:1
+msgid "UT WebDAV Browser"
+msgstr ""
+
+#: ../qml/LoginPage.qml:87
+msgid "WebDAV URL"
+msgstr ""
+
+#: ../qml/LoginPage.qml:95
+msgid "Username"
+msgstr ""
+
+#: ../qml/LoginPage.qml:103
+msgid "Password"
+msgstr ""
+
+#: ../qml/LoginPage.qml:110
+msgid ""
+"Only the URL and username are saved. The password is used for this session "
+"only."
+msgstr ""
+
+#: ../qml/LoginPage.qml:116
+msgid "Connect"
+msgstr ""
+
+#: ../qml/LoginPage.qml:116
+msgid "Please wait…"
+msgstr ""
+
+#: ../qml/LoginPage.qml:122
+msgid "Delete saved connection settings"
+msgstr ""
+
+#: ../qml/Main.qml:43
+msgid "The preview could not be opened."
+msgstr ""
+
+#: ../qml/Main.qml:189
+msgid ""
+"The operation could not be completed. Restart the app if it remains busy."
+msgstr ""
+
+#: ../qml/PdfViewerPage.qml:28
+msgid "Open PDF"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:39
+msgid "Saved on server."
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:45 ../src/text_editor.py:25
+msgid "Saving could not be confirmed. Check the server before trying again."
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:99
+msgid "Save on server"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:100
+msgid "Save this version on the WebDAV server"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:107
+msgid "Save under a new name…"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:108
+msgid "Create a new file without overwriting an existing file"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:133
+msgid "Reload the file or save under a new name."
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:153
+msgid "Unsaved changes"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:154
+msgid "Discard the changes? Unsaved text will be lost."
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:158
+msgid "Continue editing"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:163
+msgid "Discard changes"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:173
+msgid "Save under a new name"
+msgstr ""
+
+#: ../qml/TextEditorPage.qml:188
+msgid "Save"
+msgstr ""
+
+#: ../src/download_jobs.py:47
+msgid "Finish or discard the previous download job first."
+msgstr ""
+
+#: ../src/download_jobs.py:56
+msgid "Select valid files from the current directory."
+msgstr ""
+
+#: ../src/download_jobs.py:63
+msgid ""
+"Conflicting file names. Please correct the selection; files will not be "
+"renamed."
+msgstr ""
+
+#: ../src/download_jobs.py:74
+msgid "There is not enough free space for the selected downloads."
+msgstr ""
+
+#: ../src/download_jobs.py:87
+msgid "The selected files could not be checked."
+msgstr ""
+
+#: ../src/download_jobs.py:93
+msgid "Unknown or already started download job."
+msgstr ""
+
+#: ../src/download_jobs.py:102 ../src/download_jobs.py:105
+msgid "The download worker could not start."
+msgstr ""
+
+#: ../src/download_jobs.py:127 ../src/download_jobs.py:139 ../src/main.py:348
+msgid "Download cancelled."
+msgstr ""
+
+#: ../src/download_jobs.py:139
+msgid "The download worker stopped unexpectedly."
+msgstr ""
+
+#: ../src/download_jobs.py:170
+msgid "Wait until the download has stopped."
+msgstr ""
+
+#: ../src/download_jobs.py:173
+msgid "The worker is finishing. Please try again."
+msgstr ""
+
+#: ../src/main.py:25
+msgid ""
+"The file is too large for text preview (limit: 1 MiB). Use Download to save "
+"it."
+msgstr ""
+
+#: ../src/main.py:26
+msgid "The server redirected the request. Use its final WebDAV address."
+msgstr ""
+
+#: ../src/main.py:41
+msgid "Wait until the download job has stopped."
+msgstr ""
+
+#: ../src/main.py:63
+msgid ""
+"Saved connection settings could not be loaded. Please enter them again or "
+"delete them."
+msgstr ""
+
+#: ../src/main.py:71
+msgid "Saved connection settings could not be deleted."
+msgstr ""
+
+#: ../src/main.py:83
+msgid ""
+"Enter a valid HTTP(S) WebDAV URL without embedded credentials, query or "
+"fragment."
+msgstr ""
+
+#: ../src/main.py:85
+msgid "Server, username and password are required."
+msgstr ""
+
+#: ../src/main.py:92
+msgid "Connection failed. Please check the server and login details."
+msgstr ""
+
+#: ../src/main.py:96 ../src/main.py:98
+msgid "Connection successful."
+msgstr ""
+
+#: ../src/main.py:97
+msgid "Connected, but the connection settings could not be saved."
+msgstr ""
+
+#: ../src/main.py:109 ../src/main.py:131 ../src/main.py:352 ../src/main.py:414
+msgid "Authentication failed. Please check your login details."
+msgstr ""
+
+#: ../src/main.py:110
+msgid "The server denied permission to create a folder here."
+msgstr ""
+
+#: ../src/main.py:111
+msgid "The parent folder was not found."
+msgstr ""
+
+#: ../src/main.py:112
+msgid ""
+"The name may already be in use, or the server does not allow creating "
+"folders here."
+msgstr ""
+
+#: ../src/main.py:113
+msgid "The parent folder is missing or conflicts with another item."
+msgstr ""
+
+#: ../src/main.py:114 ../src/main.py:419
+msgid "The server has insufficient storage space."
+msgstr ""
+
+#: ../src/main.py:117
+msgid "The server rejected folder creation."
+msgstr ""
+
+#: ../src/main.py:120
+msgid ""
+"The connection failed. The folder may already have been created. Cancel and "
+"refresh the file list before trying again."
+msgstr ""
+
+#: ../src/main.py:122
+msgid "Invalid folder name, parent path or server response."
+msgstr ""
+
+#: ../src/main.py:132
+msgid "The server denied permission to delete this resource."
+msgstr ""
+
+#: ../src/main.py:133
+msgid "The resource no longer exists. Refresh the file list."
+msgstr ""
+
+#: ../src/main.py:134
+msgid "The server does not allow this deletion."
+msgstr ""
+
+#: ../src/main.py:135
+msgid "The resource could not be deleted because of a conflict."
+msgstr ""
+
+#: ../src/main.py:136
+msgid "The resource changed. Refresh and select it again."
+msgstr ""
+
+#: ../src/main.py:137
+msgid "The resource or one of its children is locked."
+msgstr ""
+
+#: ../src/main.py:140
+msgid "The server could not complete the operation. Refresh and select again."
+msgstr ""
+
+#: ../src/main.py:143
+msgid ""
+"The path, resource type or identity could not be verified, or the resource "
+"changed. Refresh and select it again."
+msgstr ""
+
+#: ../src/main.py:145
+msgid ""
+"The connection or response failed. Deletion may already have occurred. "
+"Refresh before selecting again."
+msgstr ""
+
+#: ../src/main.py:146
+msgid ""
+"The resource could not be checked. Please check the connection and refresh."
+msgstr ""
+
+#: ../src/main.py:174
+msgid "Select the resource again before deleting it."
+msgstr ""
+
+#: ../src/main.py:177
+msgid "The connection changed. Select the resource again."
+msgstr ""
+
+#: ../src/main.py:208
+msgid ""
+"The directory could not be loaded. Please check the connection and "
+"permissions."
+msgstr ""
+
+#: ../src/main.py:248
+msgid "The cached file is no longer available."
+msgstr ""
+
+#: ../src/main.py:257
+msgid "Unknown temporary download."
+msgstr ""
+
+#: ../src/main.py:272
+msgid "Unknown or already released download reference."
+msgstr ""
+
+#: ../src/main.py:284
+msgid "The temporary download could not be removed."
+msgstr ""
+
+#: ../src/main.py:307
+msgid "The downloaded text could not be read."
+msgstr ""
+
+#: ../src/main.py:353
+msgid "The server denied permission to download this file."
+msgstr ""
+
+#: ../src/main.py:354
+msgid "The file was not found on the server."
+msgstr ""
+
+#: ../src/main.py:356
+msgid "The server rejected the download."
+msgstr ""
+
+#: ../src/main.py:358
+msgid "The download timed out. Please check the connection."
+msgstr ""
+
+#: ../src/main.py:360 ../src/main.py:427
+msgid "The server could not be reached. Please check the connection."
+msgstr ""
+
+#: ../src/main.py:362
+msgid "There is not enough free space for this download."
+msgstr ""
+
+#: ../src/main.py:364
+msgid "The download could not be written or the connection was interrupted."
+msgstr ""
+
+#: ../src/main.py:367
+msgid "The download was incomplete or the server response was invalid."
+msgstr ""
+
+#: ../src/main.py:369
+msgid "The file could not be downloaded."
+msgstr ""
+
+#: ../src/main.py:415
+msgid "The server denied permission to upload here."
+msgstr ""
+
+#: ../src/main.py:416
+msgid "The destination folder was not found."
+msgstr ""
+
+#: ../src/main.py:417
+msgid "The destination folder does not exist or conflicts with another item."
+msgstr ""
+
+#: ../src/main.py:418
+msgid "The file exceeds the server's upload size limit."
+msgstr ""
+
+#: ../src/main.py:422
+msgid "The server rejected the upload."
+msgstr ""
+
+#: ../src/main.py:425
+msgid "The upload timed out. Please check the connection."
+msgstr ""
+
+#: ../src/main.py:429
+msgid "The local file could not be read or the connection was interrupted."
+msgstr ""
+
+#: ../src/main.py:431
+msgid ""
+"The upload could not be completed. Check the connection and destination."
+msgstr ""
+
+#: ../src/main.py:437
+msgid "Select between 1 and 1000 files."
+msgstr ""
+
+#: ../src/main.py:464
+msgid ""
+"The selection contains missing, unknown or non-file resources. Refresh and "
+"select again."
+msgstr ""
+
+#: ../src/main.py:562
+msgid ""
+"The export copies could not be prepared. Check available storage. Original "
+"downloads remain available."
+msgstr ""
+
+#: ../src/text_editor.py:16
+msgid "The file exceeds the editor limit of 256 KiB."
+msgstr ""
+
+#: ../src/text_editor.py:17
+msgid "This text is not valid UTF-8."
+msgstr ""
+
+#: ../src/text_editor.py:18
+msgid ""
+"This text format is not supported. Use UTF-8 with consistent line endings."
+msgstr ""
+
+#: ../src/text_editor.py:19
+msgid "The file changed on the server. Reload or save under a new name."
+msgstr ""
+
+#: ../src/text_editor.py:20
+msgid "The file or path could not be checked safely. Reload before saving."
+msgstr ""
+
+#: ../src/text_editor.py:21
+msgid "Use a valid file name ending in .txt or .md."
+msgstr ""
+
+#: ../src/text_editor.py:22
+msgid "A file with this name already exists. Choose another name."
+msgstr ""
+
+#: ../src/text_editor.py:23
+msgid ""
+"This version cannot be overwritten safely. Reload or save under a new name."
+msgstr ""
+
+#: ../src/text_editor.py:24
+msgid "The connection failed. Check the network."
+msgstr ""
+
+#: ../src/text_editor.py:26
+msgid "The server returned an invalid response. Try loading the file again."
+msgstr ""
+
+#: ../src/text_editor.py:27
+msgid "The server could not complete this request."
+msgstr ""
+
+#: ../src/text_editor.py:28
+msgid "Wait until the current transfer has finished."
+msgstr ""
+
+#: ../src/text_editor.py:29
+msgid "The connection changed. Open the file again."
+msgstr ""
+
+#: ../src/text_editor.py:30
+msgid "The editor operation failed. The file could not be checked safely."
+msgstr ""
+
+#: ../src/text_editor.py:120
+msgid "Access to this file was denied."
+msgstr ""
+
+#: ../src/text_editor.py:120
+msgid "Authentication failed."
+msgstr ""
+
+#: ../src/text_editor.py:121
+msgid "The file or folder was not found. Reload before saving."
+msgstr ""
+
+#: ../src/text_editor.py:122
+msgid "The destination conflicts with another file or folder."
+msgstr ""
+
+#: ../src/text_editor.py:123
+msgid "The file is locked."
+msgstr ""
+
+#: ../src/text_editor.py:123
+msgid "The server has insufficient storage."
+msgstr ""
+
+#: ../src/text_editor.py:251
+msgid "Saved. Reload the file before saving again."
+msgstr ""
+
+#: ../src/webdav.py:299
+msgid "Deletion was not completed for all resources. Refresh and select again."
+msgstr ""
+
+#: ../src/webdav.py:300
+msgid ""
+"The server returned an unclear deletion result. Refresh and select again."
+msgstr ""
+
+#: ../src/webdav.py:302
+msgid " HTTP: "
+msgstr ""
+
+#: ../src/webdav.py:304
+msgid " One or more resources are locked."
+msgstr ""
+
+#: ../src/webdav.py:309
+msgid ""
+"The server returned an invalid or unclear deletion result. Refresh and "
+"select again."
+msgstr ""
+
+#: ../src/webdav.py:311
+msgid "Deletion has not been confirmed. Refresh and select again."
+msgstr ""

@@ -1,0 +1,15 @@
+{
+    "name": "utwebdavbrowser.dkuschinsky",
+    "description": "A native Ubuntu Touch WebDAV document browser written in QML and Python.",
+    "architecture": "$ENV{ARCH}",
+    "title": "UT WebDAV Browser",
+    "hooks": {
+        "utwebdavbrowser": {
+            "apparmor": "utwebdavbrowser.apparmor",
+            "desktop":  "utwebdavbrowser.desktop"
+        }
+    },
+    "version": "1.0.18",
+    "maintainer": "Dirk Kuschinsky <utwebdavbrowser@dk-service.de>",
+    "framework" : "$ENV{CLICK_FRAMEWORK}"
+}

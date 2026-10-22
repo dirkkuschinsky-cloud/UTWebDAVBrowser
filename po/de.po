@@ -1,0 +1,623 @@
+# German translation of UT WebDAV Browser.
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: utwebdavbrowser.dkuschinsky\n"
+"PO-Revision-Date: 2026-10-21 00:00+0200\n"
+"Last-Translator: Project maintainers <utwebdavbrowser@dk-service.de>\n"
+"Report-Msgid-Bugs-To: utwebdavbrowser@dk-service.de\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "The download job could not be prepared."
+msgstr "Der Downloadauftrag konnte nicht vorbereitet werden."
+
+msgid "The download job could not be started."
+msgstr "Der Downloadauftrag konnte nicht gestartet werden."
+
+msgid "The download job could not be discarded."
+msgstr "Der Downloadauftrag konnte nicht verworfen werden."
+
+msgid "Checking resource before deletion…"
+msgstr "Datei oder Ordner wird vor dem Löschen geprüft…"
+
+msgid "The resource could not be checked."
+msgstr "Die Datei oder der Ordner konnte nicht geprüft werden."
+
+msgid "Confirm deletion"
+msgstr "Löschen bestätigen"
+
+#, qt-format
+msgid "Really delete folder %1?"
+msgstr "Ordner „%1“ wirklich löschen?"
+
+#, qt-format
+msgid "Really delete file %1?"
+msgstr "Datei „%1“ wirklich löschen?"
+
+msgid "Warning: The folder and all contained files and subfolders may be permanently deleted."
+msgstr "Achtung: Der Ordner und alle enthaltenen Dateien und Unterordner können dauerhaft gelöscht werden."
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Delete permanently"
+msgstr "Dauerhaft löschen"
+
+msgid "Resource deleted."
+msgstr "Datei oder Ordner gelöscht."
+
+msgid "Deletion was not confirmed. Refresh and select again."
+msgstr "Das Löschen wurde nicht bestätigt. Bitte aktualisieren und erneut auswählen."
+
+msgid "The editor could not be opened."
+msgstr "Der Editor konnte nicht geöffnet werden."
+
+msgid "New text file"
+msgstr "Neue Textdatei"
+
+msgid "File name (.txt or .md)"
+msgstr "Dateiname (.txt oder .md)"
+
+msgid "Create"
+msgstr "Erstellen"
+
+msgid "New folder"
+msgstr "Neuer Ordner"
+
+msgid "The folder could not be created."
+msgstr "Der Ordner konnte nicht erstellt werden."
+
+msgid "Folder name"
+msgstr "Ordnername"
+
+msgid "Download failed."
+msgstr "Download fehlgeschlagen."
+
+#, qt-format
+msgid "Uploaded %1 of %2 files."
+msgstr "Dateien hochgeladen: %1 von %2."
+
+msgid "Upload failed."
+msgstr "Hochladen fehlgeschlagen."
+
+msgid "The selected item is not a local file."
+msgstr "Die Auswahl ist keine lokale Datei."
+
+msgid "Invalid file name."
+msgstr "Ungültiger Dateiname."
+
+msgid "No files selected for upload."
+msgstr "Keine Dateien zum Hochladen ausgewählt."
+
+msgid "File selection was cancelled."
+msgstr "Die Dateiauswahl wurde abgebrochen."
+
+msgid "Files"
+msgstr "Dateien"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Select files"
+msgstr "Dateien auswählen"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Upload"
+msgstr "Hochladen"
+
+#, qt-format
+msgid "%1 files selected"
+msgstr "Ausgewählte Dateien: %1"
+
+msgid "Cancelling…"
+msgstr "Wird abgebrochen…"
+
+#, qt-format
+msgid "File %1 of %2: %3"
+msgstr "Datei %1 von %2: %3"
+
+msgid "Download job finished"
+msgstr "Downloadauftrag abgeschlossen"
+
+msgid "Preparing downloads…"
+msgstr "Downloads werden vorbereitet…"
+
+msgid "Select all"
+msgstr "Alle auswählen"
+
+msgid "Clear selection"
+msgstr "Auswahl leeren"
+
+msgid "Download"
+msgstr "Herunterladen"
+
+msgid "Leave selection"
+msgstr "Auswahl beenden"
+
+#, qt-format
+msgid "Processed: %1 of %2. Progress weighted by files: %3 %."
+msgstr "Bearbeitet: %1 von %2. Fortschritt nach Dateien: %3 %."
+
+#, qt-format
+msgid "Downloaded: %1 · Failed: %2 · Cancelled: %3"
+msgstr "Heruntergeladen: %1 · Fehlgeschlagen: %2 · Abgebrochen: %3"
+
+msgid "Cancel downloads"
+msgstr "Downloads abbrechen"
+
+msgid "Save downloaded files…"
+msgstr "Heruntergeladene Dateien speichern…"
+
+msgid "Discard results and temporary files"
+msgstr "Ergebnisse und Cache verwerfen"
+
+#, qt-format
+msgid "Uploading %1 of %2: %3"
+msgstr "Datei %1 von %2 wird hochgeladen: %3"
+
+msgid "Waiting for file selection…"
+msgstr "Warten auf die Dateiauswahl…"
+
+msgid "Waiting for server confirmation…"
+msgstr "Warten auf die Serverbestätigung…"
+
+msgid "Dismiss"
+msgstr "Schließen"
+
+#, qt-format
+msgid "Downloading: %1"
+msgstr "Wird heruntergeladen: %1"
+
+msgid "Loading editor…"
+msgstr "Editor wird geladen…"
+
+msgid "Download…"
+msgstr "Herunterladen…"
+
+msgid "Open in another app…"
+msgstr "In anderer App öffnen…"
+
+msgid "Delete…"
+msgstr "Löschen…"
+
+msgid "Edit…"
+msgstr "Bearbeiten…"
+
+msgid "Choose an app for the file."
+msgstr "Wähle eine App für die Datei aus."
+
+#, qt-format
+msgid "%1 downloaded files"
+msgstr "Heruntergeladene Dateien: %1"
+
+msgid "The export could not be prepared."
+msgstr "Der Export konnte nicht vorbereitet werden."
+
+msgid "Choose an app for the downloaded files."
+msgstr "Wähle eine App für die heruntergeladenen Dateien aus."
+
+msgid "Handing the file to the selected app…"
+msgstr "Datei wird an die ausgewählte App übergeben…"
+
+msgid "The selected app received the file. Waiting for it to finish…"
+msgstr "Die ausgewählte App hat die Datei erhalten. Warten auf den Abschluss…"
+
+msgid "The selected app ended the transfer. Check its import results. Original downloads are still available."
+msgstr "Die ausgewählte App hat die Übertragung beendet. Prüfe dort das Importergebnis. Die ursprünglichen Downloads sind weiterhin verfügbar."
+
+msgid "Export was cancelled or failed."
+msgstr "Der Export wurde abgebrochen oder ist fehlgeschlagen."
+
+msgid "The file was handed to the selected app."
+msgstr "Die Datei wurde an die ausgewählte App übergeben."
+
+msgid "Export ended without confirmation."
+msgstr "Der Export wurde ohne Bestätigung beendet."
+
+msgid "The export could not be started."
+msgstr "Der Export konnte nicht gestartet werden."
+
+msgid "The transfer is still active. You can return to the app; its files will be retained."
+msgstr "Die Übertragung läuft noch. Du kannst zur App zurückkehren; die Dateien bleiben erhalten."
+
+msgid "The transfer could not be finalized."
+msgstr "Die Übertragung konnte nicht abgeschlossen werden."
+
+msgid "Export was cancelled."
+msgstr "Der Export wurde abgebrochen."
+
+#, qt-format
+msgid "Preparing: %1"
+msgstr "Wird vorbereitet: %1"
+
+msgid "You can return to the app without ending the external app. Files remain available until the transfer ends. External changes are not saved back to WebDAV."
+msgstr "Du kannst zur App zurückkehren, ohne die andere App zu beenden. Die Dateien bleiben bis zum Ende der Übertragung verfügbar. Externe Änderungen werden nicht auf dem WebDAV-Server gespeichert."
+
+msgid "Return to app"
+msgstr "Zur App zurückkehren"
+
+msgid "Cancel transfer and return"
+msgstr "Übertragung abbrechen und zurück"
+
+msgid "Save…"
+msgstr "Speichern…"
+
+msgid "Connection failed."
+msgstr "Verbindung fehlgeschlagen."
+
+msgid "Saved connection settings deleted."
+msgstr "Gespeicherte Verbindungsdaten gelöscht."
+
+msgid "Could not delete saved settings."
+msgstr "Die gespeicherten Verbindungsdaten konnten nicht gelöscht werden."
+
+msgid "UT WebDAV Browser"
+msgstr "UT WebDAV Browser"
+
+msgid "WebDAV URL"
+msgstr "WebDAV-Adresse"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Only the URL and username are saved. The password is used for this session only."
+msgstr "Nur die Adresse und der Benutzername werden gespeichert. Das Passwort wird nur für diese Sitzung verwendet."
+
+msgid "Connect"
+msgstr "Verbinden"
+
+msgid "Please wait…"
+msgstr "Bitte warten…"
+
+msgid "Delete saved connection settings"
+msgstr "Gespeicherte Verbindung löschen"
+
+msgid "The preview could not be opened."
+msgstr "Die Vorschau konnte nicht geöffnet werden."
+
+msgid "The operation could not be completed. Restart the app if it remains busy."
+msgstr "Der Vorgang konnte nicht abgeschlossen werden. Starte die App neu, falls sie nicht mehr reagiert."
+
+msgid "Open PDF"
+msgstr "PDF öffnen"
+
+msgid "Saved on server."
+msgstr "Auf dem Server gespeichert."
+
+msgid "Saving could not be confirmed. Check the server before trying again."
+msgstr "Das Speichern konnte nicht bestätigt werden. Prüfe die Datei auf dem Server, bevor du es erneut versuchst."
+
+msgid "Save on server"
+msgstr "Auf dem Server speichern"
+
+msgid "Save this version on the WebDAV server"
+msgstr "Diese Version auf dem WebDAV-Server speichern"
+
+msgid "Save under a new name…"
+msgstr "Unter neuem Namen speichern…"
+
+msgid "Create a new file without overwriting an existing file"
+msgstr "Neue Datei erstellen, ohne eine vorhandene Datei zu überschreiben"
+
+msgid "Reload the file or save under a new name."
+msgstr "Lade die Datei erneut oder speichere sie unter einem neuen Namen."
+
+msgid "Unsaved changes"
+msgstr "Ungespeicherte Änderungen"
+
+msgid "Discard the changes? Unsaved text will be lost."
+msgstr "Änderungen verwerfen? Ungespeicherter Text geht verloren."
+
+msgid "Continue editing"
+msgstr "Weiter bearbeiten"
+
+msgid "Discard changes"
+msgstr "Änderungen verwerfen"
+
+msgid "Save under a new name"
+msgstr "Unter neuem Namen speichern"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Finish or discard the previous download job first."
+msgstr "Schließe zuerst den vorherigen Downloadauftrag ab oder verwirf seine Ergebnisse."
+
+msgid "Select valid files from the current directory."
+msgstr "Wähle gültige Dateien aus dem aktuellen Ordner aus."
+
+msgid "Conflicting file names. Please correct the selection; files will not be renamed."
+msgstr "Die Dateinamen stehen im Konflikt. Bitte ändere die Auswahl. Dateien werden nicht umbenannt."
+
+msgid "There is not enough free space for the selected downloads."
+msgstr "Für die ausgewählten Downloads ist nicht genügend Speicherplatz frei."
+
+msgid "The selected files could not be checked."
+msgstr "Die ausgewählten Dateien konnten nicht geprüft werden."
+
+msgid "Unknown or already started download job."
+msgstr "Unbekannter oder bereits gestarteter Downloadauftrag."
+
+msgid "The download worker could not start."
+msgstr "Der Download konnte nicht gestartet werden."
+
+msgid "Download cancelled."
+msgstr "Download abgebrochen."
+
+msgid "The download worker stopped unexpectedly."
+msgstr "Der Download wurde unerwartet beendet."
+
+msgid "Wait until the download has stopped."
+msgstr "Warte, bis der Download beendet ist."
+
+msgid "The worker is finishing. Please try again."
+msgstr "Der Download wird noch abgeschlossen. Bitte versuche es gleich erneut."
+
+msgid "The file is too large for text preview (limit: 1 MiB). Use Download to save it."
+msgstr "Die Datei ist für die Textvorschau zu groß (Grenze: 1 MiB). Verwende „Herunterladen“, um sie zu speichern."
+
+msgid "The server redirected the request. Use its final WebDAV address."
+msgstr "Der Server hat die Anfrage umgeleitet. Verwende seine endgültige WebDAV-Adresse."
+
+msgid "Wait until the download job has stopped."
+msgstr "Warte, bis der Downloadauftrag beendet ist."
+
+msgid "Saved connection settings could not be loaded. Please enter them again or delete them."
+msgstr "Die gespeicherten Verbindungsdaten konnten nicht geladen werden. Gib sie erneut ein oder lösche sie."
+
+msgid "Saved connection settings could not be deleted."
+msgstr "Die gespeicherten Verbindungsdaten konnten nicht gelöscht werden."
+
+msgid "Enter a valid HTTP(S) WebDAV URL without embedded credentials, query or fragment."
+msgstr "Gib eine gültige HTTP(S)-WebDAV-Adresse ohne eingebettete Zugangsdaten, Abfrage oder Fragment ein."
+
+msgid "Server, username and password are required."
+msgstr "Serveradresse, Benutzername und Passwort sind erforderlich."
+
+msgid "Connection failed. Please check the server and login details."
+msgstr "Verbindung fehlgeschlagen. Bitte prüfe die Serveradresse und die Zugangsdaten."
+
+msgid "Connection successful."
+msgstr "Verbindung hergestellt."
+
+msgid "Connected, but the connection settings could not be saved."
+msgstr "Verbunden, aber die Verbindungsdaten konnten nicht gespeichert werden."
+
+msgid "Authentication failed. Please check your login details."
+msgstr "Anmeldung fehlgeschlagen. Bitte prüfe deine Zugangsdaten."
+
+msgid "The server denied permission to create a folder here."
+msgstr "Der Server erlaubt hier keine neuen Ordner."
+
+msgid "The parent folder was not found."
+msgstr "Der übergeordnete Ordner wurde nicht gefunden."
+
+msgid "The name may already be in use, or the server does not allow creating folders here."
+msgstr "Der Name ist möglicherweise bereits vergeben, oder der Server erlaubt hier keine neuen Ordner."
+
+msgid "The parent folder is missing or conflicts with another item."
+msgstr "Der übergeordnete Ordner fehlt oder steht im Konflikt mit einem anderen Eintrag."
+
+msgid "The server has insufficient storage space."
+msgstr "Auf dem Server ist nicht genügend Speicherplatz frei."
+
+msgid "The server rejected folder creation."
+msgstr "Der Server hat das Erstellen des Ordners abgelehnt."
+
+msgid "The connection failed. The folder may already have been created. Cancel and refresh the file list before trying again."
+msgstr "Die Verbindung ist fehlgeschlagen. Der Ordner wurde möglicherweise bereits erstellt. Brich ab und aktualisiere die Dateiliste, bevor du es erneut versuchst."
+
+msgid "Invalid folder name, parent path or server response."
+msgstr "Der Ordnername, der übergeordnete Pfad oder die Serverantwort ist ungültig."
+
+msgid "The server denied permission to delete this resource."
+msgstr "Der Server erlaubt das Löschen dieser Datei oder dieses Ordners nicht."
+
+msgid "The resource no longer exists. Refresh the file list."
+msgstr "Die Datei oder der Ordner ist nicht mehr vorhanden. Aktualisiere die Dateiliste."
+
+msgid "The server does not allow this deletion."
+msgstr "Der Server erlaubt diesen Löschvorgang nicht."
+
+msgid "The resource could not be deleted because of a conflict."
+msgstr "Die Datei oder der Ordner konnte wegen eines Konflikts nicht gelöscht werden."
+
+msgid "The resource changed. Refresh and select it again."
+msgstr "Die Datei oder der Ordner wurde geändert. Bitte aktualisieren und erneut auswählen."
+
+msgid "The resource or one of its children is locked."
+msgstr "Die Datei, der Ordner oder ein darin enthaltener Eintrag ist gesperrt."
+
+msgid "The server could not complete the operation. Refresh and select again."
+msgstr "Der Server konnte den Vorgang nicht abschließen. Bitte aktualisieren und erneut auswählen."
+
+msgid "The path, resource type or identity could not be verified, or the resource changed. Refresh and select it again."
+msgstr "Pfad, Typ oder Identität konnten nicht sicher geprüft werden, oder der Eintrag wurde geändert. Bitte aktualisieren und erneut auswählen."
+
+msgid "The connection or response failed. Deletion may already have occurred. Refresh before selecting again."
+msgstr "Die Verbindung oder die Serverantwort ist fehlgeschlagen. Der Eintrag wurde möglicherweise bereits gelöscht. Aktualisiere vor einer erneuten Auswahl."
+
+msgid "The resource could not be checked. Please check the connection and refresh."
+msgstr "Die Datei oder der Ordner konnte nicht geprüft werden. Prüfe die Verbindung und aktualisiere die Liste."
+
+msgid "Select the resource again before deleting it."
+msgstr "Wähle die Datei oder den Ordner vor dem Löschen erneut aus."
+
+msgid "The connection changed. Select the resource again."
+msgstr "Die Verbindung wurde geändert. Wähle die Datei oder den Ordner erneut aus."
+
+msgid "The directory could not be loaded. Please check the connection and permissions."
+msgstr "Der Ordner konnte nicht geladen werden. Prüfe die Verbindung und die Zugriffsrechte."
+
+msgid "The cached file is no longer available."
+msgstr "Die zwischengespeicherte Datei ist nicht mehr verfügbar."
+
+msgid "Unknown temporary download."
+msgstr "Unbekannte temporäre Downloaddatei."
+
+msgid "Unknown or already released download reference."
+msgstr "Unbekannter oder bereits freigegebener Downloadverweis."
+
+msgid "The temporary download could not be removed."
+msgstr "Die temporäre Downloaddatei konnte nicht entfernt werden."
+
+msgid "The downloaded text could not be read."
+msgstr "Der heruntergeladene Text konnte nicht gelesen werden."
+
+msgid "The server denied permission to download this file."
+msgstr "Der Server erlaubt das Herunterladen dieser Datei nicht."
+
+msgid "The file was not found on the server."
+msgstr "Die Datei wurde auf dem Server nicht gefunden."
+
+msgid "The server rejected the download."
+msgstr "Der Server hat den Download abgelehnt."
+
+msgid "The download timed out. Please check the connection."
+msgstr "Zeitüberschreitung beim Download. Bitte prüfe die Verbindung."
+
+msgid "The server could not be reached. Please check the connection."
+msgstr "Der Server ist nicht erreichbar. Bitte prüfe die Verbindung."
+
+msgid "There is not enough free space for this download."
+msgstr "Für diesen Download ist nicht genügend Speicherplatz frei."
+
+msgid "The download could not be written or the connection was interrupted."
+msgstr "Der Download konnte nicht gespeichert werden, oder die Verbindung wurde unterbrochen."
+
+msgid "The download was incomplete or the server response was invalid."
+msgstr "Der Download war unvollständig, oder die Serverantwort war ungültig."
+
+msgid "The file could not be downloaded."
+msgstr "Die Datei konnte nicht heruntergeladen werden."
+
+msgid "The server denied permission to upload here."
+msgstr "Der Server erlaubt hier kein Hochladen."
+
+msgid "The destination folder was not found."
+msgstr "Der Zielordner wurde nicht gefunden."
+
+msgid "The destination folder does not exist or conflicts with another item."
+msgstr "Der Zielordner ist nicht vorhanden oder steht im Konflikt mit einem anderen Eintrag."
+
+msgid "The file exceeds the server's upload size limit."
+msgstr "Die Datei überschreitet die zulässige Uploadgröße des Servers."
+
+msgid "The server rejected the upload."
+msgstr "Der Server hat das Hochladen abgelehnt."
+
+msgid "The upload timed out. Please check the connection."
+msgstr "Zeitüberschreitung beim Hochladen. Bitte prüfe die Verbindung."
+
+msgid "The local file could not be read or the connection was interrupted."
+msgstr "Die lokale Datei konnte nicht gelesen werden, oder die Verbindung wurde unterbrochen."
+
+msgid "The upload could not be completed. Check the connection and destination."
+msgstr "Das Hochladen konnte nicht abgeschlossen werden. Prüfe die Verbindung und den Zielordner."
+
+msgid "Select between 1 and 1000 files."
+msgstr "Wähle zwischen 1 und 1000 Dateien aus."
+
+msgid "The selection contains missing, unknown or non-file resources. Refresh and select again."
+msgstr "Die Auswahl enthält fehlende oder unbekannte Einträge oder Ordner. Bitte aktualisieren und nur Dateien auswählen."
+
+msgid "The export copies could not be prepared. Check available storage. Original downloads remain available."
+msgstr "Die Exportkopien konnten nicht vorbereitet werden. Prüfe den freien Speicherplatz. Die ursprünglichen Downloads bleiben verfügbar."
+
+msgid "The file exceeds the editor limit of 256 KiB."
+msgstr "Die Datei überschreitet die Editorgrenze von 256 KiB."
+
+msgid "This text is not valid UTF-8."
+msgstr "Dieser Text ist nicht gültig UTF-8-kodiert."
+
+msgid "This text format is not supported. Use UTF-8 with consistent line endings."
+msgstr "Dieses Textformat wird nicht unterstützt. Verwende UTF-8 mit einheitlichen Zeilenenden."
+
+msgid "The file changed on the server. Reload or save under a new name."
+msgstr "Die Datei wurde auf dem Server geändert. Lade sie erneut oder speichere sie unter einem neuen Namen."
+
+msgid "The file or path could not be checked safely. Reload before saving."
+msgstr "Die Datei oder der Pfad konnte nicht sicher geprüft werden. Lade die Datei vor dem Speichern erneut."
+
+msgid "Use a valid file name ending in .txt or .md."
+msgstr "Verwende einen gültigen Dateinamen mit der Endung .txt oder .md."
+
+msgid "A file with this name already exists. Choose another name."
+msgstr "Eine Datei mit diesem Namen ist bereits vorhanden. Wähle einen anderen Namen."
+
+msgid "This version cannot be overwritten safely. Reload or save under a new name."
+msgstr "Diese Version kann nicht sicher überschrieben werden. Lade sie erneut oder speichere sie unter einem neuen Namen."
+
+msgid "The connection failed. Check the network."
+msgstr "Die Verbindung ist fehlgeschlagen. Prüfe die Netzwerkverbindung."
+
+msgid "The server returned an invalid response. Try loading the file again."
+msgstr "Der Server hat eine ungültige Antwort gesendet. Versuche, die Datei erneut zu laden."
+
+msgid "The server could not complete this request."
+msgstr "Der Server konnte diese Anfrage nicht abschließen."
+
+msgid "Wait until the current transfer has finished."
+msgstr "Warte, bis die aktuelle Übertragung beendet ist."
+
+msgid "The connection changed. Open the file again."
+msgstr "Die Verbindung wurde geändert. Öffne die Datei erneut."
+
+msgid "The editor operation failed. The file could not be checked safely."
+msgstr "Der Editorvorgang ist fehlgeschlagen. Die Datei konnte nicht sicher geprüft werden."
+
+msgid "Access to this file was denied."
+msgstr "Der Zugriff auf diese Datei wurde verweigert."
+
+msgid "Authentication failed."
+msgstr "Anmeldung fehlgeschlagen."
+
+msgid "The file or folder was not found. Reload before saving."
+msgstr "Die Datei oder der Ordner wurde nicht gefunden. Lade die Datei vor dem Speichern erneut."
+
+msgid "The destination conflicts with another file or folder."
+msgstr "Das Ziel steht im Konflikt mit einer anderen Datei oder einem Ordner."
+
+msgid "The file is locked."
+msgstr "Die Datei ist gesperrt."
+
+msgid "The server has insufficient storage."
+msgstr "Auf dem Server ist nicht genügend Speicherplatz frei."
+
+msgid "Saved. Reload the file before saving again."
+msgstr "Gespeichert. Lade die Datei erneut, bevor du sie noch einmal speicherst."
+
+msgid "Deletion was not completed for all resources. Refresh and select again."
+msgstr "Es wurden nicht alle Einträge gelöscht. Bitte aktualisieren und erneut auswählen."
+
+msgid "The server returned an unclear deletion result. Refresh and select again."
+msgstr "Das Ergebnis des Löschvorgangs ist unklar. Bitte aktualisieren und erneut auswählen."
+
+msgid " HTTP: "
+msgstr " HTTP: "
+
+msgid " One or more resources are locked."
+msgstr " Eine oder mehrere Dateien oder Ordner sind gesperrt."
+
+msgid "The server returned an invalid or unclear deletion result. Refresh and select again."
+msgstr "Das Ergebnis des Löschvorgangs ist ungültig oder unklar. Bitte aktualisieren und erneut auswählen."
+
+msgid "Deletion has not been confirmed. Refresh and select again."
+msgstr "Das Löschen wurde nicht bestätigt. Bitte aktualisieren und erneut auswählen."
+
+#, qt-format
+msgid "Error: %1"
+msgstr "Fehler: %1"
+
+msgid "The selected file could not be prepared. Choose it again."
+msgstr "Die ausgewählte Datei konnte nicht vorbereitet werden. Wähle sie erneut aus."

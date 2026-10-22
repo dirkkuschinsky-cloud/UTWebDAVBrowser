@@ -1,0 +1,56 @@
+/build/
+/.clickable/
+
+# Local development instructions (never part of a project commit).
+/AGENTS.md
+/HANDOFF.md
+
+# Local configuration and credentials; public example files remain available.
+.env
+.env.*
+!.env.example
+!.env.sample
+connection.json
+credentials.json
+credentials.*
+secrets.json
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+.netrc
+.npmrc
+.pypirc
+
+# Python environments and caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated packages, partial transfers and editor/temporary files.
+*.click
+*.part
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local runtime data and accidental in-source CMake builds.
+/.config/
+/.cache/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/install_manifest.txt
+/Makefile
+/install/
+/dist/

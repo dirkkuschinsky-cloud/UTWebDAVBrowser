@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">UT WebDAV Browser</title>
+  <desc id="desc">Blauer Ordner mit weißer Wolke, grünem Upload-Pfeil und blauem Download-Pfeil.</desc>
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#18c6f4"/>
+      <stop offset=".48" stop-color="#2067ef"/>
+      <stop offset="1" stop-color="#3210cf"/>
+    </linearGradient>
+    <linearGradient id="folderBack" x1="0%" y1="0%" x2="30%" y2="100%">
+      <stop offset="0" stop-color="#88e2fa"/>
+      <stop offset="1" stop-color="#0875ed"/>
+    </linearGradient>
+    <linearGradient id="paper" x2="0%" y2="100%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#bbd9ff"/>
+    </linearGradient>
+    <linearGradient id="folderFront" x1="0%" y1="0%" x2="75%" y2="100%">
+      <stop offset="0" stop-color="#8de2f7"/>
+      <stop offset=".42" stop-color="#2faafb"/>
+      <stop offset="1" stop-color="#1766ec"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="25%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".45" stop-color="#eaf3ff"/>
+      <stop offset="1" stop-color="#87bfff"/>
+    </linearGradient>
+    <linearGradient id="upload" x1="0%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0" stop-color="#81df2d"/>
+      <stop offset="1" stop-color="#07945a"/>
+    </linearGradient>
+    <linearGradient id="download" x1="0%" y1="0%" x2="65%" y2="100%">
+      <stop offset="0" stop-color="#16b2ff"/>
+      <stop offset="1" stop-color="#0843e5"/>
+    </linearGradient>
+    <clipPath id="tile"><rect x="16" y="16" width="480" height="480" rx="120"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#background)"/>
+    <path d="M224 101 496 373V496H171L80 405Z" fill="#100c88" opacity=".27"/>
+    <!-- Rear folder and the visible document edge. -->
+    <path d="M68 119Q68 91 95 91H208Q224 91 232 108L242 128Q247 137 261 137H399Q426 137 426 165V345H72Z" fill="url(#folderBack)"/>
+    <path d="M69 120Q69 92 95 92H208Q224 92 232 109L242 129Q247 138 261 138H399" fill="none" stroke="#c2f2ff" stroke-width="2.5" opacity=".8"/>
+    <rect x="105" y="168" width="310" height="198" rx="19" fill="url(#paper)"/>
+    <!-- Front folder silhouette keeps the tab legible at launcher sizes. -->
+    <path d="M70 168Q70 147 94 147H192Q207 147 215 163L222 175Q230 185 246 185H428Q454 185 452 213L439 392Q437 423 406 423H111Q82 423 81 395Z" fill="#0946bd" opacity=".22" transform="translate(0 6)"/>
+    <path d="M70 163Q70 140 95 140H193Q208 140 216 157L223 169Q231 178 247 178H429Q455 178 453 206L440 391Q438 416 410 416H111Q83 416 82 389Z" fill="url(#folderFront)"/>
+    <path d="M71 164Q71 141 95 141H193Q208 141 216 158L223 170Q231 179 247 179H429Q448 179 452 196" fill="none" stroke="#b5eeff" stroke-width="2.4" opacity=".8"/>
+    <!-- Cloud shadow uses vector geometry only, with no raster filters. -->
+    <path d="M166 378C137 378 116 357 116 330C116 309 129 292 148 287C156 263 177 249 202 252C213 218 242 195 277 195C317 195 350 225 352 264C385 259 414 286 414 320C414 352 391 378 357 378Z" fill="#0646b2" opacity=".25" transform="translate(3 7)"/>
+    <path d="M166 378C137 378 116 357 116 330C116 309 129 292 148 287C156 263 177 249 202 252C213 218 242 195 277 195C317 195 350 225 352 264C385 259 414 286 414 320C414 352 391 378 357 378Z" fill="url(#cloud)" stroke="#f3f9ff" stroke-width="2"/>
+    <!-- White outlines separate both arrows from the cloud at small sizes. -->
+    <path d="M193 390V338H182Q169 338 175 326L208 291Q216 283 224 291L257 326Q266 338 251 338H239V390Q239 397 232 397H201Q193 397 193 390Z" fill="#134898" opacity=".18" transform="translate(2 5)"/>
+    <path d="M188 389V338H177Q165 338 171 326L207 289Q214 282 222 289L258 326Q266 338 251 338H235V389Q235 397 227 397H196Q188 397 188 389Z" fill="url(#upload)" stroke="#f7fbff" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M286 315Q286 305 296 305H320Q330 305 330 315V350H343Q357 350 347 362L315 394Q308 401 300 394L268 362Q257 350 272 350H286Z" fill="url(#download)" stroke="#f7fbff" stroke-width="7" stroke-linejoin="round" transform="translate(0 1)"/>
+  </g>
+</svg>
