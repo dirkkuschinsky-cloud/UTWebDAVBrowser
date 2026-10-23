@@ -1,5 +1,7 @@
 # UT WebDAV Browser — quick user guide
 
+For the 1.0.19 release candidate.
+
 ## Connect
 
 1. Enter the full WebDAV endpoint provided by your server administrator. Use

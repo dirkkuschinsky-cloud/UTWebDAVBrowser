@@ -1,6 +1,6 @@
 # Privacy and security
 
-This document describes UT WebDAV Browser package version 1.0.18 with the
+This document describes UT WebDAV Browser package version 1.0.19 with the
 release-preparation security corrections. It covers the app's own code, not
 the privacy policies of a WebDAV provider, Ubuntu Touch or receiving apps.
 

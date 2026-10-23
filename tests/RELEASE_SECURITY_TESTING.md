@@ -1,6 +1,6 @@
-# Release security checks — v1.0.19 preparation (package version 1.0.18)
+# Release security checks — v1.0.19 preparation (package version 1.0.19)
 
-These changes deliberately retain package version 1.0.18. No permissions or dependencies are added. Automated tests use synthetic credentials and simulated HTTP responses only.
+The release candidate uses package version 1.0.19. No permissions or dependencies are added. Automated tests use synthetic credentials and simulated HTTP responses only.
 
 ## Transport and paths
 

@@ -4,7 +4,7 @@ A native Ubuntu Touch app for browsing and managing files on a WebDAV server.
 The interface uses QML and Lomiri components, with a Python backend connected
 through PyOtherSide. The application ID is `utwebdavbrowser.dkuschinsky`.
 
-The current package version is **1.0.18**. OpenStore release preparation is in
+The current package version is **1.0.19**. OpenStore release preparation is in
 progress; this document does not imply that an OpenStore release is available.
 
 ## Features
@@ -67,7 +67,7 @@ clickable build
 The build runs the Click package review. The package is normally produced at:
 
 ```text
-build/all/app/utwebdavbrowser.dkuschinsky_1.0.18_all.click
+build/all/app/utwebdavbrowser.dkuschinsky_1.0.19_all.click
 ```
 
 For device testing, transfer the package to the device and install it there.
@@ -75,8 +75,8 @@ For example, with SSH configured, replace `DEVICE_ADDRESS` with your own device
 address:
 
 ```sh
-scp build/all/app/utwebdavbrowser.dkuschinsky_1.0.18_all.click phablet@DEVICE_ADDRESS:Downloads/
-ssh -t phablet@DEVICE_ADDRESS 'sudo click install --user=phablet --allow-unauthenticated /home/phablet/Downloads/utwebdavbrowser.dkuschinsky_1.0.18_all.click'
+scp build/all/app/utwebdavbrowser.dkuschinsky_1.0.19_all.click phablet@DEVICE_ADDRESS:Downloads/
+ssh -t phablet@DEVICE_ADDRESS 'sudo click install --user=phablet --allow-unauthenticated /home/phablet/Downloads/utwebdavbrowser.dkuschinsky_1.0.19_all.click'
 ```
 
 This command explicitly permits an unsigned development package. Install only a

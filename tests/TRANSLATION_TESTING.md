@@ -1,4 +1,4 @@
-# Translation testing — release preparation, package version 1.0.18
+# Translation testing — release preparation, package version 1.0.19
 
 The application uses one Gettext domain, `utwebdavbrowser.dkuschinsky`, for QML
 and Python. `po/de.po` contains 199 fully populated messages. Brand names and
@@ -57,7 +57,7 @@ service is not guaranteed to be available; test receiver apps on real devices.
 
 ## POCO and tablet checks
 
-Install the rebuilt 1.0.18 Click package on both test devices. Use disposable
+Install the rebuilt 1.0.19 Click package on both test devices. Use disposable
 files and folders for operations that write or delete data.
 
 1. Set the Ubuntu Touch system language to German. Follow any system request
