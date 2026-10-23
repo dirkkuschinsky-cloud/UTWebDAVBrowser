@@ -4,8 +4,9 @@ A native Ubuntu Touch app for browsing and managing files on a WebDAV server.
 The interface uses QML and Lomiri components, with a Python backend connected
 through PyOtherSide. The application ID is `utwebdavbrowser.dkuschinsky`.
 
-The current package version is **1.0.19**. OpenStore release preparation is in
-progress; this document does not imply that an OpenStore release is available.
+The current package version is **1.0.19**.
+
+**[Install UT WebDAV Browser from the OpenStore](https://open-store.io/app/utwebdavbrowser.dkuschinsky)**
 
 ## Features
 
